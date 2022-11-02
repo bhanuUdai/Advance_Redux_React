@@ -10,6 +10,7 @@ function App() {
     <Layout>
      {cartStatus && <Cart />}
       <Products />
+      
     </Layout>
   );
 }
